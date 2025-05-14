@@ -1,10 +1,12 @@
 # ECR
 
-## Overview
+## نظرة عامة / Overview
+
+ECR (Eagle Car Rental) هو تطبيق حديث لإيجار السيارات مبني باستخدام Flutter، يوفر تجربة سلسة للمستخدمين الناطقين بالعربية والإنجليزية.
 
 ECR (Eagle Car Rental) is a modern car rental application built with Flutter, providing a seamless experience for Arabic and English speaking users.
 
-## Project Structure
+## هيكل المشروع / Project Structure
 
 ```
 ECR/
@@ -16,33 +18,40 @@ ECR/
 └── ios/               # iOS platform code
 ```
 
-## Features
+## المميزات / Features
 
-- Bilingual support (Arabic and English)
-- Modern UI/UX design
-- Car catalog with detailed information
-- Booking system
-- Contact form
-- Responsive design
+- دعم ثنائي اللغة (العربية والإنجليزية)
+- تصميم عصري وسهل الاستخدام
+- كتالوج سيارات مع معلومات مفصلة
+- نظام حجز
+- نموذج اتصال
+- تصميم متجاوب مع جميع الأجهزة
+- نظام تصفية متقدم للسيارات
+- خريطة تفاعلية لمواقع السيارات
+- نظام تقييم وتعليقات للسيارات
+- دعم الدفع الإلكتروني
+- تنبيهات وتنبيهات
+- نظام متابعة الحجوزات
+- ملف شخصي للمستخدم
 
-## Setup Instructions
+## إعدادات التطبيق / Setup Instructions
 
-1. Clone the repository
-2. Install Flutter SDK
-3. Run `flutter pub get`
-4. Configure Firebase (if using)
-5. Run the app using `flutter run`
+1. نسخ المستودع
+2. تثبيت Flutter SDK
+3. تشغيل `flutter pub get`
+4. تكوين Firebase (إذا تم استخدامه)
+5. تشغيل التطبيق باستخدام `flutter run`
 
-## Localization
+## الترجمة / Localization
 
-The application supports both Arabic and English languages. Users can switch languages through the app settings.
+يدعم التطبيق اللغتين العربية والإنجليزية. يمكن للمستخدمين تغيير اللغة من خلال إعدادات التطبيق.
 
-## Contact
+## الاتصال / Contact
 
-For support or inquiries, please contact:
-- Email: support@eaglecarrental.com
-- Phone: +971 XXX XXX XXXX
+للاستفسارات أو الدعم، يرجى التواصل على:
+- البريد الإلكتروني: support@eaglecarrental.com
+- الهاتف: +971 XXX XXX XXXX
 
-## License
+## الترخيص / License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+هذا المشروع مرخص بموجب رخصة MIT - راجع ملف الترخيص للتفاصيل.
