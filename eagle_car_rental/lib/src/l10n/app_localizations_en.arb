@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "appTitle": "Eagle Car Rental",
+  "homeWelcome": "Welcome to Eagle Car Rental",
+  "carsTitle": "Available Cars",
+  "bookNow": "Book Now",
+  "contactUs": "Contact Us",
+  "pickupDate": "Pickup Date",
+  "returnDate": "Return Date",
+  "submit": "Submit"
+}

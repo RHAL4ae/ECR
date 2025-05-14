@@ -9,38 +9,26 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get bookingFormTitle => 'Booking Form';
+  String get appTitle => 'Eagle Car Rental';
 
   @override
-  String get fullNameLabel => 'Full Name';
+  String get homeWelcome => 'Welcome to Eagle Car Rental';
 
   @override
-  String get phoneLabel => 'Phone Number';
+  String get carsTitle => 'Available Cars';
 
   @override
-  String get emailLabel => 'Email';
+  String get bookNow => 'Book Now';
 
   @override
-  String get notesLabel => 'Any Notes';
+  String get contactUs => 'Contact Us';
 
   @override
-  String get successMessage => 'Booking submitted successfully!';
+  String get pickupDate => 'Pickup Date';
 
   @override
-  String get requiredField => 'This field is required';
+  String get returnDate => 'Return Date';
 
   @override
-  String get validEmail => 'Please enter a valid email address';
-
-  @override
-  String get selectDate => 'Select Date';
-
-  @override
-  String get errorSubmitting => 'Error submitting booking';
-
-  @override
-  String get close => 'Close';
-
-  @override
-  String get ok => 'OK';
+  String get submit => 'Submit';
 }
