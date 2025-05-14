@@ -1,0 +1,53 @@
+name: ecr_app
+description: A Flutter application for ECR
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.2.1
+  provider: ^6.1.1
+  intl: ^0.19.0
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^4.13.6
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  date_time_picker: ^2.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/logo.png
+    - assets/images/nissan_sunny.jpg
+    - assets/images/toyota_corolla.jpg
+    - assets/images/kia_pegas.jpg
+    - assets/images/toyota_yaris.jpg
+    - assets/images/kia_seltos.jpg
+    - assets/images/kia_sportage.jpg
+    - assets/images/kia_carnival.jpg
+    - assets/images/kia_sorento.jpg
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+flutter_localizations:
+  sdk: flutter
+  supported-locales:
+    - en
+    - ar
+

@@ -1,0 +1,4 @@
+template-arb-file: eagle_car_rental/lib/src/l10n/app_en.arb
+output-localization-file: eagle_car_rental/lib/src/l10n/app_localizations.dart
+arb-dir: eagle_car_rental/lib/src/l10n
+synthetic-package: true

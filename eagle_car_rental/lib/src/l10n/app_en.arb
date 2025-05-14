@@ -1,0 +1,75 @@
+{
+  "@@locale": "en",
+  "bookingFormTitle": {
+    "description": "Title of the booking form screen",
+    "type": "text",
+    "placeholders": {}
+  },
+  "fullNameLabel": {
+    "description": "Label for full name input",
+    "type": "text",
+    "placeholders": {}
+  },
+  "phoneLabel": {
+    "description": "Label for phone number input",
+    "type": "text",
+    "placeholders": {}
+  },
+  "emailLabel": {
+    "description": "Label for email input",
+    "type": "text",
+    "placeholders": {}
+  },
+  "notesLabel": {
+    "description": "Label for notes input",
+    "type": "text",
+    "placeholders": {}
+  },
+  "successMessage": {
+    "description": "Message shown when booking is successfully submitted",
+    "type": "text",
+    "placeholders": {}
+  },
+  "requiredField": {
+    "description": "Error message for required fields",
+    "type": "text",
+    "placeholders": {}
+  },
+  "validEmail": {
+    "description": "Error message for invalid email",
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectDate": {
+    "description": "Text for date selection button",
+    "type": "text",
+    "placeholders": {}
+  },
+  "errorSubmitting": {
+    "description": "Error message when submitting booking fails",
+    "type": "text",
+    "placeholders": {}
+  },
+  "close": {
+    "description": "Text for close button",
+    "type": "text",
+    "placeholders": {}
+  },
+  "ok": {
+    "description": "Text for OK button",
+    "type": "text",
+    "placeholders": {}
+  },
+  "bookingFormTitle": "Booking Form",
+  "fullNameLabel": "Full Name",
+  "phoneLabel": "Phone Number",
+  "emailLabel": "Email",
+  "notesLabel": "Any Notes",
+  "successMessage": "Booking submitted successfully!",
+  "requiredField": "This field is required",
+  "validEmail": "Please enter a valid email address",
+  "selectDate": "Select Date",
+  "errorSubmitting": "Error submitting booking",
+  "close": "Close",
+  "ok": "OK"
+}

@@ -1,0 +1,75 @@
+{
+  "@@locale": "en",
+  "appName": "ECR Car Rental",
+  "year": "Year",
+  "transmission": "Transmission",
+  "automatic": "Automatic",
+  "manual": "Manual",
+  "pricePerDay": "Price per day",
+  "currency": "SAR",
+  "bookNow": "Book Now",
+  "bookingForm": "Booking Form",
+  "bookingDetails": "Booking Details",
+  "pickupLocation": "Pickup Location",
+  "dropoffLocation": "Dropoff Location",
+  "selectStartDate": "Select Start Date",
+  "selectEndDate": "Select End Date",
+  "total": "Total",
+  "confirmBooking": "Confirm Booking",
+  "bookingConfirmed": "Booking Confirmed",
+  "requiredField": "This field is required",
+  "@appName": {
+    "description": "The name of the application"
+  },
+  "@year": {
+    "description": "Label for car year"
+  },
+  "@transmission": {
+    "description": "Label for car transmission type"
+  },
+  "@automatic": {
+    "description": "Label for automatic transmission"
+  },
+  "@manual": {
+    "description": "Label for manual transmission"
+  },
+  "@pricePerDay": {
+    "description": "Label for car rental price per day"
+  },
+  "@currency": {
+    "description": "Currency symbol for prices"
+  },
+  "@bookNow": {
+    "description": "Call to action button for booking a car"
+  },
+  "@bookingForm": {
+    "description": "Title for the booking form screen"
+  },
+  "@bookingDetails": {
+    "description": "Section header for booking details"
+  },
+  "@pickupLocation": {
+    "description": "Label for pickup location field"
+  },
+  "@dropoffLocation": {
+    "description": "Label for dropoff location field"
+  },
+  "@selectStartDate": {
+    "description": "Button text for selecting start date"
+  },
+  "@selectEndDate": {
+    "description": "Button text for selecting end date"
+  },
+  "@total": {
+    "description": "Label for total price"
+  },
+  "@confirmBooking": {
+    "description": "Button text for confirming booking"
+  },
+  "@bookingConfirmed": {
+    "description": "Message shown when booking is confirmed"
+  },
+  "@requiredField": {
+    "description": "Error message for required form fields"
+  }
+}

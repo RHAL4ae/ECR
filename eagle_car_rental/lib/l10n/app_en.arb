@@ -1,0 +1,63 @@
+{
+  "@@locale": "en",
+  "@appTitle": {
+    "description": "App title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@homeWelcome": {
+    "description": "Home screen welcome message",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@carsTitle": {
+    "description": "Cars section title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@bookNow": {
+    "description": "Book now button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@contactUs": {
+    "description": "Contact us button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@pickupDate": {
+    "description": "Pickup date label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@returnDate": {
+    "description": "Return date label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@submit": {
+    "description": "Submit button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "appTitle": "Vibe ECR",
+  "homeWelcome": "Welcome to Vibe ECR",
+  "carsTitle": "Choose Your Car",
+  "bookNow": "Book Now",
+  "contactUs": "Contact Us",
+  "pickupDate": "Pickup Date",
+  "returnDate": "Return Date",
+  "submit": "Submit",
+  "bookingFormTitle": "Booking Form",
+  "fullNameLabel": "Full Name",
+  "phoneLabel": "Phone Number",
+  "emailLabel": "Email",
+  "notesLabel": "Any Notes",
+  "successMessage": "Booking submitted successfully!",
+  "requiredField": "This field is required",
+  "validEmail": "Please enter a valid email address",
+  "selectDate": "Select Date",
+  "errorSubmitting": "Error submitting booking",
+  "close": "Close",
+  "ok": "OK"
+}

@@ -1,0 +1,51 @@
+{
+  "@@locale": "ar",
+  "@appTitle": {
+    "description": "App title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@homeWelcome": {
+    "description": "Home screen welcome message",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@carsTitle": {
+    "description": "Cars section title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@bookNow": {
+    "description": "Book now button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@contactUs": {
+    "description": "Contact us button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@pickupDate": {
+    "description": "Pickup date label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@returnDate": {
+    "description": "Return date label",
+    "type": "text",
+    "placeholders": {}
+  },
+  "@submit": {
+    "description": "Submit button text",
+    "type": "text",
+    "placeholders": {}
+  },
+  "appTitle": "رحال ECR",
+  "homeWelcome": "مرحباً بك في رحال ECR",
+  "carsTitle": "اختر سيارتك",
+  "bookNow": "احجز الآن",
+  "contactUs": "اتصل بنا",
+  "pickupDate": "تاريخ الاستلام",
+  "returnDate": "تاريخ الإرجاع",
+  "submit": "إرسال"
+}

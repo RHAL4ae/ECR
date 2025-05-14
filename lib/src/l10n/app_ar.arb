@@ -1,0 +1,75 @@
+{
+  "@@locale": "ar",
+  "appName": "تطبيق تأجير السيارات",
+  "year": "السنة",
+  "transmission": "نوع النقل",
+  "automatic": "أوتوماتيك",
+  "manual": "يدوي",
+  "pricePerDay": "السعر اليومي",
+  "currency": "ريال سعودي",
+  "bookNow": "احجز الآن",
+  "bookingForm": "نموذج الحجز",
+  "bookingDetails": "تفاصيل الحجز",
+  "pickupLocation": "موقع الاستلام",
+  "dropoffLocation": "موقع التسليم",
+  "selectStartDate": "اختر تاريخ البداية",
+  "selectEndDate": "اختر تاريخ النهاية",
+  "total": "المجموع",
+  "confirmBooking": "تأكيد الحجز",
+  "bookingConfirmed": "تم تأكيد الحجز",
+  "requiredField": "هذا الحقل مطلوب",
+  "@appName": {
+    "description": "اسم التطبيق"
+  },
+  "@year": {
+    "description": "السنة الموديل"
+  },
+  "@transmission": {
+    "description": "نوع ناقل الحركة"
+  },
+  "@automatic": {
+    "description": "ناقل حركة أوتوماتيك"
+  },
+  "@manual": {
+    "description": "ناقل حركة يدوي"
+  },
+  "@pricePerDay": {
+    "description": "سعر التأجير اليومي"
+  },
+  "@currency": {
+    "description": "رمز العملة"
+  },
+  "@bookNow": {
+    "description": "زر حجز السيارة"
+  },
+  "@bookingForm": {
+    "description": "عنوان نموذج الحجز"
+  },
+  "@bookingDetails": {
+    "description": "عنوان تفاصيل الحجز"
+  },
+  "@pickupLocation": {
+    "description": "عنوان موقع استلام السيارة"
+  },
+  "@dropoffLocation": {
+    "description": "عنوان موقع تسليم السيارة"
+  },
+  "@selectStartDate": {
+    "description": "زر اختيار تاريخ البداية"
+  },
+  "@selectEndDate": {
+    "description": "زر اختيار تاريخ النهاية"
+  },
+  "@total": {
+    "description": "عنوان المبلغ الإجمالي"
+  },
+  "@confirmBooking": {
+    "description": "زر تأكيد الحجز"
+  },
+  "@bookingConfirmed": {
+    "description": "رسالة تأكيد الحجز"
+  },
+  "@requiredField": {
+    "description": "رسالة خطأ للحقول المطلوبة"
+  }
+}
