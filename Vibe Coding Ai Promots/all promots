@@ -1,0 +1,106 @@
+You are a senior Flutter developer. 
+Please generate a new Flutter project called `eagle_car_rental`. 
+In `pubspec.yaml`, add these dependencies:
+  • flutter_localizations
+  • intl
+  • firebase_core
+  • cloud_firestore
+Configure the assets section to include:
+  • assets/logo.png
+  • assets/cars/*.png
+Show me the complete `pubspec.yaml` and the directory tree after creation.
+
+Now add internationalization:
+1. Under `lib/i18n/` create `ar.arb` and `en.arb` with keys:
+   - appTitle
+   - homeWelcome
+   - carsTitle
+   - bookNow
+   - contactUs
+   - pickupDate
+   - returnDate
+   - submit
+2. Integrate `Intl` in `main.dart` so that Arabic is default, with a language‐switcher button in the AppBar.
+Show me the updated `main.dart` and the ARB files.
+
+
+Import the uploaded logo (`assets/logo.png`) and define in `ThemeData`:
+  • primaryColor & accentColor extracted from the logo palette
+  • default font family: Cairo (Arabic) / Roboto (Latin)
+Also scaffold a simple splash screen that displays the logo centered.
+Provide the Dart code for the splash screen.
+
+
+Create `lib/src/ui/screens/home.dart`:
+- AppBar with title (`appTitle` from localization) and a language‐switcher icon
+- Below, a vertically‐centered welcome text (`homeWelcome`)
+- A “View Cars” button that navigates to `CarListScreen`
+Implement responsive padding so it looks good on mobile and web.
+Show me the full Dart code for `HomeScreen`.
+
+
+
+Implement `lib/src/ui/screens/car_list.dart`:
+- Query a local JSON (or Firestore) for your car inventory:
+  • Nissan Sunny (2021–2024)
+  • Toyota Corolla (2015–2018)
+  • Kia Pegas (2024)
+  • Yaris (2012)
+  • Kia Seltos (2024)
+  • Kia Sportage (2024)
+  • Kia Carnival (2024)
+  • Kia Sorento (2024)
+- Display as a responsive GridView of `CarCard` widgets showing image, name, and year.
+- Tapping a card pushes `CarDetailScreen(car: selectedCar)`.
+Provide the code for `CarListScreen`, `CarModel`, and `CarCard`.
+
+
+Build `lib/src/ui/screens/car_detail.dart`:
+- Show larger images carousel
+- Display specs (model, year, automatic/manual, price per day)
+- A “Book Now” button that navigates to `BookingFormScreen`
+Include localization for all labels. Show full Dart code.
+
+
+Create `lib/src/ui/screens/booking_form.dart`:
+- Fields: full name, phone number, email
+- Date pickers for pickupDate & returnDate
+- Any notes (multiline)
+- Submit button that:
+    • Validates inputs
+    • Saves a `BookingModel` to Firestore collection `bookings`
+    • On success shows a localized confirmation dialog
+Show me the `BookingFormScreen` and Firestore service code.
+
+
+
+
+Implement `lib/src/ui/screens/contact.dart`:
+- A small embedded Google Map iframe (web) or a static map image (mobile)
+- Branch address, phone number, email (pulled from a config file)
+- A “Send Message” form (name, email, message) that emails you via a Cloud Function
+Provide full Dart code and the Firebase Function stub.
+
+
+Under `web/` update `index.html` and `manifest.json`:
+- Set page title to localized `appTitle`
+- Add meta tags for mobile-friendly viewport
+- Ensure PWA install banner works
+Show me the diff for those files.
+
+
+Generate a `firebase.json` and `firebaserc` that:
+- Deploys `build/web` to Hosting
+- Configures rewrites so all routes serve `index.html`
+Also write a GitHub Actions workflow (`.github/workflows/deploy.yml`) that:
+- On push to `main`, runs `flutter build web` then `firebase deploy --only hosting`
+Show me both config files.
+
+
+
+Now produce the commands and updated manifest/plist settings to:
+- Set the app name to localized `appTitle`
+- Use the app icon from `assets/logo.png`
+- Configure bundle identifiers (`com.eaglecarrental.app`)
+- Build release APK and IPA artifacts
+List the exact CLI steps and any file edits.
