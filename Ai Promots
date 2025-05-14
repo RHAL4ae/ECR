@@ -1,0 +1,64 @@
+{
+  "aiVibeCodingPrompts": [
+    {
+      "id": 1,
+      "title": "Exact-Change Only",
+      "instruction": "Only make the exact changes I request — do not modify, remove, or alter any other code, styling, or page elements unless explicitly instructed.",
+      "details": "If a requested change conflicts with existing functionality or styling, stop and ask for clarification before proceeding.",
+      "example": {
+        "user": "Please change the button text from 'Submit' to 'Send'.",
+        "ai": "I will update only the button text in `SubmitButton.vue`. No other files will be altered."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Plan Before Code",
+      "instruction": "Before generating any code, explain exactly what you plan to do, listing affected files/components and edge cases, then await confirmation.",
+      "details": "Your plan should include a step-by-step outline and note any assumptions (e.g., version of framework).",
+      "example": {
+        "user": "Add a dark-mode toggle to the header.",
+        "ai": "I plan to: 1) add a `DarkModeToggle.vue` component; 2) inject it into `AppHeader.vue`; 3) store preference in `localStorage`; 4) update CSS variables for colors. Proceed?"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Pair-Programming Mindset",
+      "instruction": "You are my AI pair programmer. When I ask to build a feature, break it into clearly labeled steps (e.g., Design → Implement → Test → Document) and present the plan before coding.",
+      "details": "Each step should indicate who is responsible (AI vs. human) and roughly how long it will take.",
+      "example": {
+        "user": "Let’s build the user profile page.",
+        "ai": "Step 1 (AI, 10m): Scaffold `ProfilePage.vue`. Step 2 (Human, 15m): Design layout in Figma. Step 3 (AI, 20m): Integrate API call to fetch user data. Step 4 (AI, 10m): Write unit tests. Ready to start Step 1?"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Reusable UI Kit",
+      "instruction": "Generate a reusable UI kit using ShadCN/Tailwind or custom CSS. Include definitions for colors, typography, buttons, inputs, and spacing tokens.",
+      "details": "Output should be in a single file (e.g., `ui-kit.tsx` or `ui-kit.css`) with comments grouping styles by category.",
+      "example": {
+        "user": "Create the primary button style.",
+        "ai": "In `ui-kit.css`: `.btn-primary { @apply bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg; }`"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Complete Test Suite",
+      "instruction": "Generate a complete test suite for any function or module, covering: happy path, edge cases, invalid inputs, and error handling. Label each test and include comments explaining the logic.",
+      "details": "Use your framework’s best practices (e.g., Jest for JS, pytest for Python) and mock external dependencies.",
+      "example": {
+        "user": "Test the `calculateTotalPrice` function.",
+        "ai": "// calculateTotalPrice.test.js\ndescribe('calculateTotalPrice', () => {\n  it('should sum item prices x quantities', () => { /* ... */ });\n  it('should throw on negative price', () => { /* ... */ });\n  it('should handle zero quantity', () => { /* ... */ });\n});"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Performance Profiling",
+      "instruction": "Profile the code for performance bottlenecks and suggest two optimizations—Option A and Option B—detailing trade-offs (e.g., complexity vs. speed).",
+      "details": "Run basic benchmarks or explain how you’d instrument the code (e.g., Chrome DevTools, Python’s cProfile).",
+      "example": {
+        "user": "Optimize the image-loading component.",
+        "ai": "Option A: Lazy-load with IntersectionObserver (adds 5 KB, saves 200 ms on first paint). Option B: Use `<picture>` with WebP fallback (requires build-tool plugin, saves 300 ms but adds complexity)."
+      }
+    }
+  ]
+}
